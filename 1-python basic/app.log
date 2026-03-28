@@ -1,0 +1,17 @@
+2026-01-29 23:33:14-root-DEBUG-This is a debug message
+2026-01-29 23:33:14-root-INFO-This is an info message
+2026-01-29 23:33:14-root-WARNING-This is warning message
+2026-01-29 23:33:14-root-ERROR-This is an error message
+2026-01-29 23:33:14-root-CRITICAL-This is a critical message
+2026-01-30 12:39:46-module1-DEBUG-This is a debug message for module 1
+2026-01-30 12:39:46-module2-WARNING-This is warning message for module 2
+2026-01-30 12:39:46-module2-ERROR-This is error message
+2026-01-30 12:40:01-module1-DEBUG-This is a debug message for module 1
+2026-01-30 12:40:01-module2-WARNING-This is warning message for module 2
+2026-01-30 12:40:01-module2-ERROR-This is error message
+2026-01-30 12:41:03-module1-DEBUG-This is a debug message for module 1
+2026-01-30 12:41:03-module2-WARNING-This is warning message for module 2
+2026-01-30 12:41:03-module2-ERROR-This is error message
+2026-01-30 12:41:53-module1-DEBUG-This is a debug message for module 1
+2026-01-30 12:41:53-module2-WARNING-This is warning message for module 2
+2026-01-30 12:41:53-module2-ERROR-This is error message
