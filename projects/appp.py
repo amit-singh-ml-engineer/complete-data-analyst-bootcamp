@@ -3,9 +3,14 @@ import pickle
 import pandas as pd
 
 # Load saved files
-model = pickle.load(open('fish_model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
-encoder = pickle.load(open('encoder.pkl', 'rb'))
+import os
+import pickle
+
+BASE_DIR = os.path.dirname(__file__)
+
+model = pickle.load(open(os.path.join(BASE_DIR, "fish_model.pkl"), "rb"))
+scaler = pickle.load(open(os.path.join(BASE_DIR, "scaler.pkl"), "rb"))
+encoder = pickle.load(open(os.path.join(BASE_DIR, "encoder.pkl"), "rb"))
 
 st.title("🐟 Fish Weight Prediction")
 
